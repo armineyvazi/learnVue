@@ -10,7 +10,9 @@ export default {
     color: String
   },
   methods: {
-
+    onClick () {
+      this.$emit('toggle-add-task')
+    } 
   }
 }
 </script>
